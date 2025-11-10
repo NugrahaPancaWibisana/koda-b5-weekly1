@@ -12,4 +12,4 @@ const genMultiplicationTable = (number) => {
   console.log(tableRow);
 };
 
-genMultiplicationTable(5);
+genMultiplicationTable(10);
