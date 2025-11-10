@@ -1,4 +1,4 @@
-const number = 10;
+const number = 20;
 
 const promise = (number) => {
   return new Promise((resolve, reject) => {    
