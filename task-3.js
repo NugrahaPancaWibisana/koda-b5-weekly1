@@ -6,4 +6,12 @@ const celciusToFahrenheit = (celcius) => {
   }
 };
 
-console.log(celciusToFahrenheit(30));
+const fahrenheitToCelcius = (fahrenheit) => {
+  if (typeof fahrenheit === 'number') {
+    return (fahrenheit - 32) / 1.8;
+  } else {
+    return 'Invalid number';
+  }
+};
+
+console.log(celciusToFahrenheit(30), fahrenheitToCelcius(86));
