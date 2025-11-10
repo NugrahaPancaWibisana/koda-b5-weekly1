@@ -10,6 +10,7 @@
  * @returns {string}
  */
 
+
 let array = ['Nugraha', 'Panca', 'Wibisana']; // Ini sebuah array yang akan saya ubah
 
 const methodJoin = array.join(' '); // Contoh penggunaan nya seperti ini
@@ -30,6 +31,7 @@ console.log(methodJoin); // Akan menampilkan "Nugraha Panca Wibisana"
  * @returns {array}
  */
 
+
 array = [1, 2, 3, 4, 5]; // Ini sebuah array yang akan saya ubah
 
 const methodFill = array.fill(1, 2, 5); // Contoh penggunaan nya seperti ini
@@ -48,6 +50,7 @@ console.log(methodFill); // Akan menampilkan [ 1, 2, 1, 1, 1 ]
  *
  * @returns {boolean}
  */
+
 
 array = ['hitam', 'biru', 'hijau', 'kuning', 'putih', 'ungu']; // Ini sebuah array yang akan saya cek
 
@@ -68,6 +71,7 @@ console.log(methodIncludes); // Akan menampilkan true
  * @returns {number}
  */
 
+
 array = ['1', 2, [3], { 4: 4 }, undefined]; // Ini sebuah array yang akan saya cek
 
 const methodIndexOf = array.indexOf(undefined, 2); // Contoh penggunaan nya seperti ini
@@ -87,6 +91,7 @@ console.log(methodIndexOf); // Akan menampilkan 4
  *
  * @returns {array}
  */
+
 
 array = ['kucing', 'burung', 'gajah', 'kambing', 'ayam']; // ini sebuah array yang akan saya cek
 
